@@ -1,0 +1,67 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: hsl(45, 50%, 90%);
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 5px;
+}
+
+body {
+  background-color: hsl(210, 45%, 60%);
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 750px;
+  position: relative;
+  top: 40px;
+  z-index: 0;
+}
+
+#header-img {
+  grid-column: 1;
+  width: 100%;
+  align-self: center;
+}
+
+#nav-bar {
+  grid-column: 2;
+  align-self: center;
+  justify-self: right;
+  display: flex;
+  margin-right: 5px;
+}
+
+.nav-link {
+  text-decoration: inherit;
+  color: inherit;
+  margin: 5px;
+}
+
+#form {
+  display: grid;
+  grid-gap: 10px;
+  margin-top: 50px;
+}
+#email{
+    max-width: 280px;
+    width: 100%;
+    padding: 5px;
+}
+
+#submit {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15 px 0;
+    border: 0;
+}
