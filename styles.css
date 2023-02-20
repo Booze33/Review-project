@@ -1,0 +1,23 @@
+body {
+  justify-content: center;
+  text-align: center;
+}
+
+
+#image {
+  max-width: 70rem;
+  height: 30rem;
+}
+
+#main {
+  background-color: rgb(184, 183, 183);
+}
+
+#div {
+  background-color: white;
+}
+
+#body {
+  width: 100%;
+  text-align: center;
+}
